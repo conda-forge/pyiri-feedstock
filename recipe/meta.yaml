@@ -1,5 +1,5 @@
 {% set name = "PyIRI" %}
-{% set version = "0.0.4" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyiri-{{ version }}.tar.gz
-  sha256: ab59c16fa0368e90235a7791d1cd2d6277d738ce7dc5118172b9c029a9b41bcb
+  sha256: a3fa21cce1deb51ba908913b0696eab1ea54de379fbc0aa61780d336f8c724f3
 
 build:
   noarch: python
